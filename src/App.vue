@@ -58,28 +58,6 @@ import HelloWorld from './components/HelloWorld.vue'
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="swiper init-swiper">
-
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "centeredSlides": true,
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "navigation": {
-                "nextEl": ".swiper-button-next",
-                "prevEl": ".swiper-button-prev"
-              }
-            }
-          </script>
-
           <div class="swiper-wrapper">
 
             <div class="swiper-slide" style="background-image: url('assets/img/post-slide-1.jpg');">
@@ -145,7 +123,6 @@ import HelloWorld from './components/HelloWorld.vue'
               </div>
 
             </div>
-
             <div class="col-lg-8">
               <div class="row g-5">
                 <div class="col-lg-4 border-start custom-border">

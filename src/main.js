@@ -5,7 +5,11 @@ import App from './App.vue'
 import router from './router'
 import 'bootstrap/dist/css/bootstrap.css'
 import bootstrap from 'bootstrap/dist/js/bootstrap.bundle.js'
-const app = createApp(App).use(bootstrap)
+import css from './assets/css/main.css'
+import scr from './assets/js/main.js'
+import  './assets/vendor/bootstrap/css/bootstrap.css'
+import js from './assets/vendor/bootstrap/js/bootstrap.bundle'
+const app = createApp(App).use(bootstrap, css, scr, img, js)
 
 app.use(router)
 
